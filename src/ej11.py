@@ -2,7 +2,6 @@
 #
 #
 
-
 num = int(input("Introduce un numero: "))
 
 suma = str((num * (num + 1)) / 2)

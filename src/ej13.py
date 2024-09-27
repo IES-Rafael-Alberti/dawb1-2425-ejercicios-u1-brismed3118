@@ -13,7 +13,6 @@ time.sleep(1)
 
 n = int(input("Introduce el número que quieres dividir: "))     #   Dividendo
 m = int(input("Introduce el número divisor: "))                 #   Divisor
-
 c = str(int(n / m))                                             #   Cociente
 r = str(int(n % m))                                             #   Resto
 

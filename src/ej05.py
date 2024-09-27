@@ -15,7 +15,6 @@ precio = float(input("Dime el precio final del artículo sin IVA: "))
 
 iva = str(input("Dime si tu artículo tiene un IVA general, reducido o superreducido: "))
 
-
 if iva == "general":
     precio = str(precio + (precio * ivag))
     print("El precio final del artículo es de " + precio + " euros.")
