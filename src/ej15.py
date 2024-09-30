@@ -4,7 +4,6 @@
 
 capital = float(input("Dime cuanto dinero hay depositada en la cuenta de ahorros: "))
 
-
 año1 = capital * 1.04
 año2 = (capital * 1.04) * 1.04
 año3 = ((capital * 1.04) * 1.04) * 1.04
