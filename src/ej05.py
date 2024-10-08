@@ -16,16 +16,16 @@ precio = float(input("Dime el precio final del artículo sin IVA: "))
 iva = str(input("Dime si tu artículo tiene un IVA general, reducido o superreducido: "))
 
 if iva == "general":
-    precio = str(precio + (precio * ivag))
-    print("El precio final del artículo es de " + precio + " euros.")
+    precio = precio + (precio * ivag)
+    print("El precio final del artículo es de {:.2f} euros.".format(precio))
 
 elif iva == "reducido":
-    precio = str(precio + (precio * ivar))
-    print("El precio final del artículo es de " + precio + " euros.")
+    precio = precio + (precio * ivar)
+    print("El precio final del artículo es de {:.2f} euros.".format(precio))
 
 elif iva == "superreducido":
-    precio = str(precio + (precio * ivas))
-    print("El precio final del artículo es de " + precio + " euros.")
+    precio = precio + (precio * ivas)
+    print("El precio final del artículo es de  {:.2f} euros.".format(precio))
 
 else:
     print("Lo siento. No existe ese tipo de IVA...")

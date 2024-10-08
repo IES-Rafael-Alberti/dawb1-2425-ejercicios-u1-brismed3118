@@ -2,12 +2,11 @@
 #
 #
 
-pref = int(input("Introduce el precio con IVA de tu articulo: "))
+pref = float(input("Introduce el precio con IVA de tu articulo: "))
 
 presi = pref / 1.1
 
-iva = str(pref - presi)
+iva = pref - presi
 
-presi = str(presi)
 
-print("El precio del artículo sin IVA es de " + presi + " euros y el IVA que se ha pagado son " + iva + " euros." )
+print("El precio del artículo sin IVA es de {:.2f} euros y el IVA que se ha pagado son {:.2f} euros.".format(pref,iva) )

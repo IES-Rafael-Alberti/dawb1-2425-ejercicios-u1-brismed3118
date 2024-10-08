@@ -2,10 +2,8 @@
 #
 #
 
-grad = int(input("Introduce la temperatura en grados Celsius: "))
+grad = float(input("Introduce la temperatura en grados Celsius: "))
 
-faren = str((grad * 1.8) + 32 )
+faren = (grad * 1.8) + 32
 
-grad = str(grad)
-
-print("Tus " + grad + " grados Celsius equivalen a " + faren + " grados Fahrenheit.")
+print("Tus {} grados Celsius equivalen a {:.2f} grados Fahrenheit.".format(grad,faren))

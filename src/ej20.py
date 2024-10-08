@@ -3,7 +3,6 @@
 #
 
 numtel =  str(input("Introduce un número de teléfono: "))
-prefijo = "+34-"
-extension = "-56"
+prefijo, numtel, sufijo =  numtel.split("-")
 
-print("El número  de teléfono es: " + prefijo + numtel + extension)
+print(f"El número  de teléfono es: {numtel}")

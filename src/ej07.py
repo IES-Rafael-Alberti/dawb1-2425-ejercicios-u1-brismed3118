@@ -11,6 +11,6 @@ num1 = float(input("Introudce el primer número: "))
 num2 = float(input("Introudce el segundo número: "))
 num3 = float(input("Introudce el tercer número: "))
 
-tot = str(num1 + num2 + num3)
+tot = num1 + num2 + num3
 
-print("La suma total de los 3 números introducidos es " + tot + ".")
+print("La suma total de los 3 números introducidos es {:.2f}.".format(tot))
