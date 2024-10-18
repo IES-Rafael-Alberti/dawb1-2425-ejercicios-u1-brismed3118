@@ -8,4 +8,4 @@ cost = int(input("Coste por hora: "))
 
 total = str(cost * horas)
 
-print("Importe total: " + total)
+print("Importe total: " + total ( horas, cost))
